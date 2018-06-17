@@ -1,0 +1,3 @@
+PAGE_SIZE=5
+ORDER=True
+LOGGING=True
