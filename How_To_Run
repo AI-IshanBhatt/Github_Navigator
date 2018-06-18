@@ -1,0 +1,2 @@
+pip install -r requirements.txt
+./gunicorn.sh > /dev/null 2>&1 &
