@@ -1,0 +1,20 @@
+[2018-06-18 13:42:37 +0530] [9339] [INFO] Starting gunicorn 19.8.1
+[2018-06-18 13:42:37 +0530] [9339] [INFO] Listening at: http://0.0.0.0:5050 (9339)
+[2018-06-18 13:42:37 +0530] [9339] [INFO] Using worker: gevent
+[2018-06-18 13:42:37 +0530] [9395] [INFO] Booting worker with pid: 9395
+[2018-06-18 13:42:37 +0530] [9396] [INFO] Booting worker with pid: 9396
+[2018-06-18 13:42:37 +0530] [9397] [INFO] Booting worker with pid: 9397
+[2018-06-18 13:42:37 +0530] [9398] [INFO] Booting worker with pid: 9398
+[2018-06-18 13:42:37 +0530] [9400] [INFO] Booting worker with pid: 9400
+[2018-06-18 13:42:40,329] INFO in routes: Searched for arrow
+[2018-06-18 13:42:40 +0530] [9398] [INFO] Searched for arrow
+[2018-06-18 13:43:51 +0530] [9395] [INFO] Parent changed, shutting down: <Worker 9395>
+[2018-06-18 13:43:51 +0530] [9395] [INFO] Worker exiting (pid: 9395)
+[2018-06-18 13:43:51 +0530] [9396] [INFO] Parent changed, shutting down: <Worker 9396>
+[2018-06-18 13:43:51 +0530] [9396] [INFO] Worker exiting (pid: 9396)
+[2018-06-18 13:43:51 +0530] [9397] [INFO] Parent changed, shutting down: <Worker 9397>
+[2018-06-18 13:43:51 +0530] [9397] [INFO] Worker exiting (pid: 9397)
+[2018-06-18 13:43:51 +0530] [9398] [INFO] Parent changed, shutting down: <Worker 9398>
+[2018-06-18 13:43:51 +0530] [9398] [INFO] Worker exiting (pid: 9398)
+[2018-06-18 13:43:51 +0530] [9400] [INFO] Parent changed, shutting down: <Worker 9400>
+[2018-06-18 13:43:51 +0530] [9400] [INFO] Worker exiting (pid: 9400)
