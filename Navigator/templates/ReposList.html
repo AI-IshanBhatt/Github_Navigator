@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Navigator</title>
+</head>
+<body>
+    <h1>{{ search_term }}</h1>
+    {% if repo_list %}
+    {% for repo in repo_list %}
+    <div><p>
+        <h2> {{ loop.index }} {{ repo.name }}</h2>
+        <h3> Created {{ repo.created_at }}</h3>
+        <a href= {{ repo.login_url }}><img src={{ repo.avatar_url }} alt="avatar" height="40" width="40"></a>
+        {{ repo.login_name }}
+        <h3>LastCommit</h3>
+        <p>{{ repo.last_commit_sha }} {{repo.last_commit_message }} {{repo.last_commit_author_name}}
+    </p></div>
+    <hr/>
+    {% endfor %}
+    {% else %}
+    <h1>Your search_term did not match any repository</h1>
+    {% endif %}
+</body>
+</html>
